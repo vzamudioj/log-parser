@@ -16,7 +16,7 @@ The tool will find any IPs that made more than 100 requests starting from 2017-0
 java -cp "parser.jar" com.ef.Parser --startDate=2017-01-01.13:00:00 --duration=daily --threshold=250
 
 The tool will find any IPs that made more than 250 requests starting from 2017-01-01.13:00:00 to 2017-01-02.13:00:00 (24 hours) and print them to console AND also load them to another MySQL table with comments on why it's blocked.
-Deliverables
+# Deliverables
 1- Java program that can be run from command line
 
 Provided by Github
